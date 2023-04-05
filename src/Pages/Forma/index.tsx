@@ -9,6 +9,7 @@ import axios from "axios";
 import { Navigate } from "react-router-dom";
 
 const Forma: React.FC = () => {
+  window.scrollTo(0, 0);
   const token = "5734959432:AAHRxlxPajS8YF5oMrdtgIDbMRgOhmDtPL0";
   const chatId = "-516579185";
 

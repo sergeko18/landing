@@ -1,0 +1,22 @@
+
+.container {
+    position: relative;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 25px;
+}
+
+.text1 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+}
+
+.whiteText {
+    color: white;
+}
+
+.root {
+    overflow: hidden;
+}

@@ -1,6 +1,7 @@
 import { Nav, Navbar, Button, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import logo from "../../img/vialogo.jpg";
+import s from "./Header.module.css";
 
 const Header: React.FC = () => {
   return (
@@ -20,19 +21,19 @@ const Header: React.FC = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="justify-content-center flex-grow-1 pe-3">
-              <Link to="/">
+              <Link className={s.button} to="/">
                 <Button variant="light w-100">На головну</Button>
               </Link>
 
-              <Link to="/about">
-                <Button variant="light w-100">О нас</Button>
-              </Link>
-
-              <Link to="/service">
+              <Link className={s.button} to="/service">
                 <Button variant="light w-100">Послуги</Button>
               </Link>
 
-              <Link to="/contacts">
+              <Link className={s.button} to="/about">
+                <Button variant="light w-100">Про нас</Button>
+              </Link>
+
+              <Link className={s.button} to="/contacts">
                 <Button variant="light w-100">Контакти</Button>
               </Link>
             </Nav>

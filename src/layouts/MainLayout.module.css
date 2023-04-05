@@ -1,0 +1,15 @@
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.main {
+    min-height: 900px;
+}
+
+.footer {
+    margin-top: 20px;
+}

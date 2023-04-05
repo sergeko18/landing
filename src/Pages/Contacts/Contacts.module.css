@@ -1,0 +1,18 @@
+.link { 
+    text-decoration: none;
+    color: black;
+   }
+
+.email {
+    text-align: center;
+    font-weight: 600;
+}
+
+.emailContainer {
+    margin-top: 50px;
+}
+
+.emailContent {
+    font-weight: 300;
+
+}
